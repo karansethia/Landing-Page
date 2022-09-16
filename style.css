@@ -88,5 +88,24 @@
     width: 10rem;
 }
 
-/* ------------------- SECOND SECTION ------------------ */
+/* ------------------- INFO SECTION ------------------ */
+.info{
+    height: 90vh;
+    display: flex; 
+    justify-content: space-evenly;
+}
+.text_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.text_info > h2{
+    font-size: 3rem;
+}
+.image_info{
+   justify-content: center;
+    border: 2px solid black;
+}
 
