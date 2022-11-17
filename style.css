@@ -154,4 +154,29 @@
   .show{
     opacity: 1;
   }
-
+.section3{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}
+.text_sec3{
+    width: 50%;
+    text-align: center;
+}
+.text_sec3 p{
+    text-align: justify;
+}
+.img2_sec3{
+    display: flex;
+    flex-direction: column;
+}
+.img2_sec3 > .ms{
+    margin-top: 200px;
+}
+.img2_sec3 > .ios{
+    margin-top: 200px;
+}
+.img2_sec3 img{
+    width: 128px;
+    height: fit-content;
+}
