@@ -78,6 +78,18 @@
     font-weight: 100;
     font-size: 0.9rem;
 }
+.text_hero1 button{
+    margin-top: 60px;
+    width: 150px;
+    padding: 10px 20px;
+    background-color: rgba(240, 248, 255, 0);
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.text_hero1 a{
+    text-decoration: none;
+    color: white;
+}
 .image_hero1{
     justify-content: center;
     display: flex;
