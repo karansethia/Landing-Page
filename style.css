@@ -177,8 +177,12 @@
     background-repeat: no-repeat;
 }
 .text_sec3{
+    padding-top: 20rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
     width: 50%;
     text-align: center;
+    color: aliceblue;
 }
 .text_sec3 p{
     text-align: justify;
