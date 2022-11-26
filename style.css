@@ -171,14 +171,15 @@
     display: flex;
     justify-content: center;
     height: 80vh;
-    background: url('./img/pexels-fauxels-3184423.jpg');
+    background-image: url("./img/pexels-fox-1595385.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-blend-mode: overlay;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .text_sec3{
-    padding-top: 20rem;
-    padding-left: 8rem;
+    padding-top: 15rem;
+    padding-left: 4rem;
     padding-right: 8rem;
     width: 50%;
     text-align: center;
@@ -190,9 +191,13 @@
 .img2_sec3{
     display: flex;
     flex-direction: column;
+    margin-top: 7%;
 }
 .img2_sec3 > .ms{
     margin-top: 200px;
+}
+.mac{
+filter: invert(1);
 }
 .img2_sec3 > .ios{
     margin-top: 200px;
